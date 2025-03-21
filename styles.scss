@@ -140,3 +140,91 @@
     }
   }
 }
+
+.targets {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 18px 54px;
+  margin-top: 33px;
+  gap: 27px;
+
+  &__title {
+    font-size: 24px;
+    line-height: 32px;
+    color: #2571b7;
+    font-weight: 400;
+  }
+
+  &__description {
+    text-align: center;
+    font-size: 15px;
+    line-height: 24px;
+    color: #737373;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    color: #ffffff;
+
+    &__element {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 21px 18px;
+      gap: 11px;
+
+      &__content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 6px;
+
+        &__title {
+          font-size: 18px;
+          line-height: 24px;
+          font-weight: 400;
+        }
+
+        &__desc {
+          font-size: 12px;
+          line-height: 18px;
+        }
+      }
+
+      &--blue {
+        background-color: #0072c6;
+      }
+
+      &--blue-night {
+        background-color: #2c5898;
+      }
+
+      &--green {
+        background-color: #207245;
+      }
+
+      &--red {
+        background-color: #cb4a32;
+      }
+
+      &--purple {
+        background-color: #733781;
+      }
+
+      &--blue-sky {
+        background-color: #00aff0;
+      }
+
+      &:nth-last-child(-n + 4) {
+        display: none;
+      }
+    }
+  }
+}
