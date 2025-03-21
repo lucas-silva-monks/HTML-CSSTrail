@@ -103,4 +103,22 @@
   height: 39px;
 }
 
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 15px;
+  line-height: 24px;
+  gap: 24px;
+  color: #737373;
+  margin-top: 60px;
+  padding: 0 24px;
+}
+.about__first-p--highlight {
+  color: #737373;
+  font-weight: 400;
+}
+
 /*# sourceMappingURL=styles.css.map */
