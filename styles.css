@@ -206,7 +206,7 @@
 }
 .badges__title {
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 400;
   color: #2571b7;
 }
 .badges__container {
@@ -232,7 +232,7 @@
 .badges__container__element__text__subtitle {
   font-size: 15px;
   line-height: 20px;
-  font-weight: 600;
+  font-weight: 400;
 }
 .badges__container__element__text__subtitle--hands {
   color: #7fba00;
@@ -274,6 +274,53 @@
   width: 100%;
   background-color: #dedede;
   height: 3px;
+}
+
+.boards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 18px;
+  gap: 33px;
+}
+.boards__title {
+  justify-self: flex-start;
+  font-size: 24px;
+  line-height: 36px;
+  height: 68px;
+  color: #2571b7;
+  font-weight: 400;
+}
+.boards__elements {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.boards__elements__element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  padding: 30px 24px;
+  border: 3px solid #dedede;
+}
+.boards__elements__element:nth-last-child(-n+3) {
+  border-top: 0px;
+}
+.boards__elements__element__subtitle {
+  font-size: 15px;
+  line-height: 20px;
+  color: #f25022;
+  font-weight: 400;
+}
+.boards__elements__element__paragraph {
+  text-align: center;
+  font-size: 12px;
+  line-height: 18px;
+  color: #737373;
 }
 
 /*# sourceMappingURL=styles.css.map */
