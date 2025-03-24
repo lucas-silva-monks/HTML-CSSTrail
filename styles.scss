@@ -603,6 +603,21 @@
       }
     }
   }
+
+  .about {
+    margin-top: 96px;
+    padding: 0 120px;
+    font-size: 20px;
+    line-height: 30px;
+    gap: 30px;
+
+    &__first-p {
+      &--highlight {
+        color: #f25022;
+        font-weight: 600;
+      }
+    }
+  }
 }
 
 @media screen and (min-width: 1440px) {
