@@ -450,4 +450,32 @@
   color: #b4b4b4;
 }
 
+@media screen and (min-width: 1024px) {
+  .header {
+    padding: 22px 120px 21px;
+  }
+  .header__nav__logo {
+    display: block;
+    width: 123.69px;
+    height: auto;
+  }
+  .header__nav__menu-burger {
+    display: none;
+  }
+  .header__nav__buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 71px;
+  }
+  .header__nav__buttons__lorem--common {
+    display: block;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .header__nav__buttons__lorem--highlighted {
+    margin-left: 35px;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
