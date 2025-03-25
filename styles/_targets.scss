@@ -1,0 +1,165 @@
+.targets {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 18px 54px;
+  margin-top: 33px;
+  gap: 27px;
+
+  &__title {
+    font-size: 24px;
+    line-height: 32px;
+    color: #2571b7;
+    font-weight: 400;
+  }
+
+  &__description {
+    text-align: center;
+    font-size: 15px;
+    line-height: 24px;
+    color: #737373;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    color: #ffffff;
+
+    &__element {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 21px 18px;
+      gap: 11px;
+
+      &__content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 6px;
+
+        &__title {
+          font-size: 18px;
+          line-height: 24px;
+          font-weight: 400;
+        }
+
+        &__description {
+          font-size: 12px;
+          line-height: 18px;
+        }
+      }
+
+      &--blue {
+        background-color: #0072c6;
+      }
+
+      &--blue-night {
+        background-color: #2c5898;
+      }
+
+      &--green {
+        background-color: #207245;
+      }
+
+      &--red {
+        background-color: #cb4a32;
+      }
+
+      &--purple {
+        background-color: #733781;
+      }
+
+      &--blue-sky {
+        background-color: #00aff0;
+      }
+
+      &:nth-last-child(-n + 4) {
+        display: none;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .targets {
+    padding: 0 60px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .targets {
+    margin-top: 96px;
+    gap: 48px;
+    padding: 0 120px;
+
+    &__title {
+      font-size: 40px;
+      line-height: 53px;
+    }
+
+    &__description {
+      font-size: 20px;
+      line-height: 30px;
+    }
+
+    &__container {
+      column-gap: 24px;
+      row-gap: 24px;
+      flex-direction: row;
+      flex-wrap: wrap;
+
+      &__element {
+        padding: 20px 32px;
+        gap: 20px;
+        width: calc(50% - 88px);
+
+        &__image {
+          width: 64px;
+          height: auto;
+        }
+
+        &__content {
+          &__title {
+            font-size: 20px;
+            line-height: 30px;
+          }
+
+          &__description {
+            font-size: 16px;
+            line-height: 24px;
+          }
+        }
+
+        &:nth-last-child(-n + 4) {
+          display: flex;
+        }
+
+        &--blue-dark {
+          background-color: #094ab2;
+        }
+
+        &--blue-water {
+          background-color: #0093be;
+        }
+
+        &--purple-light {
+          background-color: #5558af;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .targets {
+    &__container {
+      column-gap: 48px;
+    }
+  }
+}

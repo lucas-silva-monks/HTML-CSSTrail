@@ -1,0 +1,15 @@
+@use "header";
+@use "banner";
+@use "about";
+@use "targets";
+@use "badges";
+@use "boards";
+@use "pannels";
+@use "contact";
+@use "footer";
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
