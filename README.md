@@ -2,16 +2,14 @@ HTML & CSS Trail
 
 sass --watch styles.scss:styles.css
 
-Importar arquivos css separados
+!Armazenar variáveis
 
-Armazenar variáveis
-
-Fazer clean code
+!Fazer clean code
 
 Fazer JS
 
-Arrumar botoes - hover
+!Arrumar botoes - hover
 
-Header sticky
+!Header sticky
 
-desativar submit do forms
+!desativar submit do forms
