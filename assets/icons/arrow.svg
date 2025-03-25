@@ -1,0 +1,14 @@
+<svg
+              id="hero__container__images__arrow-down"
+              width="56"
+              height="25"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 56 30"
+            >
+              <path
+                d="M 0 0 L 28 30 L 56 0"
+                stroke="#FFFFFF"
+                stroke-width="2"
+                fill="transparent"
+              />
+            </svg>
