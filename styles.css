@@ -719,6 +719,23 @@
     font-size: 28px;
     line-height: 37px;
   }
+  .footer {
+    padding: 0 120px;
+    margin-top: 96px;
+    margin-bottom: 32px;
+    gap: 23px;
+  }
+  .footer__container {
+    gap: 57px;
+  }
+  .footer__container__logo {
+    width: 179px;
+    height: auto;
+  }
+  .footer__copyright {
+    font-size: 14px;
+    line-height: 19px;
+  }
 }
 @media screen and (min-width: 1440px) {
   .header__nav__buttons {
