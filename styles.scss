@@ -680,6 +680,69 @@
       }
     }
   }
+
+  .badges {
+    margin-top: 96px;
+    padding: 0 120px;
+    gap: 48px;
+
+    &__title {
+      font-size: 40px;
+      line-height: 53px;
+    }
+
+    &__container {
+      gap: 96px;
+      flex-direction: row;
+
+      &__divider-out {
+        display: none;
+      }
+
+      &__element {
+        flex-direction: column;
+        gap: 20px;
+
+        &__image {
+          width: 160px;
+          height: auto;
+        }
+
+        &__text {
+          align-items: center;
+          justify-content: center;
+          gap: 20px;
+
+          &__subtitle {
+            font-size: 20px;
+            line-height: 27px;
+          }
+
+          &__description {
+            text-align: center;
+            font-size: 16px;
+            line-height: 24px;
+          }
+
+          &__divider-in {
+            display: block;
+            width: 53px;
+            height: 4px;
+            background-color: #dedede;
+            margin-top: -4px;
+          }
+
+          &__button {
+            margin-top: 12px;
+            border: 2px solid;
+            padding: 8px 10px;
+            font-size: 16px;
+            line-height: 21px;
+          }
+        }
+      }
+    }
+  }
 }
 
 @media screen and (min-width: 1440px) {
