@@ -1,3 +1,5 @@
+@use "variables" as var;
+
 .badges {
   display: flex;
   flex-direction: column;
@@ -10,7 +12,7 @@
   &__title {
     font-size: 24px;
     font-weight: 400;
-    color: #2571b7;
+    color: var.$heading-color;
   }
 
   &__container {
@@ -39,15 +41,15 @@
           font-weight: 400;
 
           &--hands {
-            color: #7fba00;
+            color: var.$badges-hands;
           }
 
           &--shield {
-            color: #00a4ef;
+            color: var.$badges-shield;
           }
 
           &--computer {
-            color: #ffb900;
+            color: var.$badges-computer;
           }
         }
 
@@ -58,7 +60,7 @@
         &__description {
           font-size: 12px;
           line-height: 18px;
-          color: #737373;
+          color: var.$secondary-neutral-color;
         }
 
         &__button {
@@ -69,25 +71,25 @@
           padding: 7px 6px;
 
           &--hands {
-            color: #7fba00;
-            border-color: #7fba00;
+            color: var.$badges-hands;
+            border-color: var.$badges-hands;
           }
 
           &--shield {
-            color: #00a4ef;
-            border-color: #00a4ef;
+            color: var.$badges-shield;
+            border-color: var.$badges-shield;
           }
 
           &--computer {
-            color: #ffb900;
-            border-color: #ffb900;
+            color: var.$badges-computer;
+            border-color: var.$badges-computer;
           }
         }
       }
     }
     &__divider-out {
       width: 100%;
-      background-color: #dedede;
+      background-color: var.$border-color;
       height: 3px;
     }
   }
@@ -147,7 +149,7 @@
             display: block;
             width: 53px;
             height: 4px;
-            background-color: #dedede;
+            background-color: var.$border-color;
             margin-top: -4px;
           }
 

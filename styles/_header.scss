@@ -1,3 +1,5 @@
+@use "variables" as var;
+
 .header {
   position: sticky;
   top: 0;
@@ -5,7 +7,7 @@
   width: 100%;
   box-sizing: border-box;
   padding: 0 18px;
-  background-color: #2571b7;
+  background-color: var.$heading-color;
 
   &__nav {
     display: flex;
@@ -23,7 +25,7 @@
       gap: 6px;
 
       &__line {
-        background-color: #ffffff;
+        background-color: var.$primary-neutral-color;
         width: 24px;
         height: 2px;
       }
@@ -31,7 +33,7 @@
 
     &__buttons {
       &__lorem {
-        color: #ffffff;
+        color: var.$primary-neutral-color;
         background-color: transparent;
         border: none;
         font-size: 14px;
@@ -42,7 +44,7 @@
         }
 
         &--highlighted {
-          background-color: #002050;
+          background-color: var.$header-button-color;
           padding: 5px 15px 4px;
         }
       }

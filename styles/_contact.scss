@@ -1,3 +1,5 @@
+@use "variables" as var;
+
 .contact {
   display: flex;
   flex-direction: column;
@@ -13,7 +15,7 @@
     text-align: center;
     font-size: 15px;
     line-height: 24px;
-    color: #737373;
+    color: var.$secondary-neutral-color;
     font-weight: 400;
   }
 
@@ -26,7 +28,7 @@
     padding: 15px 18px;
     max-width: 324px;
     width: 100%;
-    background-color: #e6e6e6;
+    background-color: var.$forms-background-color;
     box-sizing: border-box;
 
     &__field {
@@ -40,7 +42,7 @@
       &__label {
         font-size: 12px;
         line-height: 16px;
-        color: #737373;
+        color: var.$secondary-neutral-color;
       }
 
       &__input {
@@ -62,16 +64,16 @@
         }
 
         &:focus {
-          border-color: #2571b7;
+          border-color: var.$heading-color;
         }
 
         &:focus::placeholder {
-          color: #737373;
+          color: var.$secondary-neutral-color;
         }
       }
 
       &__input:focus + &__label {
-        color: #2571b7;
+        color: var.$heading-color;
       }
     }
 
@@ -81,10 +83,10 @@
       border: none;
       outline: none;
       height: 52px;
-      background-color: #00a4ef;
+      background-color: var.$button-color;
       font-size: 21px;
       line-height: 28px;
-      color: #ffffff;
+      color: var.$secondary-neutral-color;
       font-weight: 400;
     }
   }

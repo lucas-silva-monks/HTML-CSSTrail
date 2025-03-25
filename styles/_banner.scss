@@ -1,3 +1,5 @@
+@use "variables" as var;
+
 .banner {
   background-image: url("../assets/images/banner.png");
   background-size: cover;
@@ -15,7 +17,7 @@
     align-items: center;
     justify-content: center;
     gap: 60px;
-    color: #ffffff;
+    color: var.$primary-neutral-color;
     padding-top: 137px;
 
     &__content {
@@ -41,11 +43,11 @@
 
     &__button {
       border: none;
-      background-color: #00a4ef;
+      background-color: var.$button-color;
       font-size: 21px;
       line-height: 28px;
       padding: 12px 32px;
-      color: #ffffff;
+      color: var.$primary-neutral-color;
     }
   }
 

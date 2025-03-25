@@ -1,3 +1,5 @@
+@use "variables" as var;
+
 .about {
   display: flex;
   flex-direction: column;
@@ -7,13 +9,13 @@
   font-size: 15px;
   line-height: 24px;
   gap: 24px;
-  color: #737373;
+  color: var.$secondary-neutral-color;
   margin-top: 60px;
   padding: 0 24px;
 
   &__first-p {
     &--highlight {
-      color: #737373;
+      color: var.$secondary-neutral-color;
       font-weight: 400;
     }
   }
@@ -35,7 +37,7 @@
 
     &__first-p {
       &--highlight {
-        color: #f25022;
+        color: var.$highlight-color;
         font-weight: 600;
       }
     }

@@ -1,15 +1,15 @@
 HTML & CSS Trail
 
-sass --watch styles.scss:styles.css
+sass --watch styles/styles.scss:styles.css
 
-!Armazenar variáveis
+!Armazenar variáveis de cor
+
+!Armazenar variáveis padrão - espaçamentos, fontes...
 
 !Fazer clean code
 
 Fazer JS
 
 !Arrumar botoes - hover
-
-!Header sticky
 
 !desativar submit do forms

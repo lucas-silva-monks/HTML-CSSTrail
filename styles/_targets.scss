@@ -1,3 +1,5 @@
+@use "variables" as var;
+
 .targets {
   display: flex;
   flex-direction: column;
@@ -10,7 +12,7 @@
   &__title {
     font-size: 24px;
     line-height: 32px;
-    color: #2571b7;
+    color: var.$heading-color;
     font-weight: 400;
   }
 
@@ -18,7 +20,7 @@
     text-align: center;
     font-size: 15px;
     line-height: 24px;
-    color: #737373;
+    color: var.$secondary-neutral-color;
   }
 
   &__container {
@@ -27,7 +29,7 @@
     align-items: center;
     justify-content: center;
     gap: 15px;
-    color: #ffffff;
+    color: var.$primary-neutral-color;
 
     &__element {
       display: flex;
@@ -56,27 +58,27 @@
       }
 
       &--blue {
-        background-color: #0072c6;
+        background-color: var.$target-blue;
       }
 
       &--blue-night {
-        background-color: #2c5898;
+        background-color: var.$target-blue-night;
       }
 
       &--green {
-        background-color: #207245;
+        background-color: var.$target-green;
       }
 
       &--red {
-        background-color: #cb4a32;
+        background-color: var.$target-red;
       }
 
       &--purple {
-        background-color: #733781;
+        background-color: var.$target-purple;
       }
 
       &--blue-sky {
-        background-color: #00aff0;
+        background-color: var.$target-blue-sky;
       }
 
       &:nth-last-child(-n + 4) {
@@ -141,15 +143,15 @@
         }
 
         &--blue-dark {
-          background-color: #094ab2;
+          background-color: var.$target-blue-dark;
         }
 
         &--blue-water {
-          background-color: #0093be;
+          background-color: var.$target-blue-water;
         }
 
         &--purple-light {
-          background-color: #5558af;
+          background-color: var.$target-purple-light;
         }
       }
     }
