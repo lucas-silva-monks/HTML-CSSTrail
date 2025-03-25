@@ -628,6 +628,35 @@
     font-size: 16px;
     line-height: 21px;
   }
+  .boards {
+    padding: 0 120px;
+    margin-top: 96px;
+    gap: 48px;
+  }
+  .boards__title {
+    height: fit-content;
+    font-size: 40px;
+    line-height: 53px;
+  }
+  .boards__elements {
+    flex-direction: row;
+  }
+  .boards__elements__element {
+    gap: 24px;
+    padding: 40px 35px;
+  }
+  .boards__elements__element__subtitle {
+    font-size: 20px;
+    line-height: 27px;
+  }
+  .boards__elements__element__paragraph {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .boards__elements__element:nth-last-child(-n+3) {
+    border-top: 3px solid #dedede;
+    border-left: 0px;
+  }
 }
 @media screen and (min-width: 1440px) {
   .header__nav__buttons {
