@@ -462,6 +462,8 @@
         padding: 0 15px;
         transition: border-color 0.3s ease;
         box-sizing: border-box;
+        font-size: 15px;
+        line-height: 20px;
 
         &::placeholder {
           color: transparent;
@@ -806,6 +808,50 @@
       padding: 0 120px;
       font-size: 48px;
       line-height: 64px;
+    }
+  }
+
+  .contact {
+    margin-top: 96px;
+    padding: 0 120px;
+    gap: 48px;
+
+    &__description {
+      font-size: 24px;
+      line-height: 30px;
+    }
+
+    &__form {
+      gap: 28px;
+      padding: 32px 48px;
+      max-width: 564px;
+
+      &__field {
+        gap: 8px;
+
+        &__label {
+          font-size: 14px;
+          line-height: 30px;
+        }
+
+        &__input {
+          padding: 0 20px;
+          height: 56px;
+          font-size: 20px;
+          line-height: 30px;
+
+          &::placeholder {
+            font-size: 20px;
+            line-height: 30px;
+          }
+        }
+
+        &__button {
+          margin-top: 20px;
+          font-size: 28px;
+          line-height: 37px;
+        }
+      }
     }
   }
 }
