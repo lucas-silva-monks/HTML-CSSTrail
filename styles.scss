@@ -387,9 +387,13 @@
   justify-content: center;
   width: 100%;
 
-  &__image {
+  &__image-mobile {
     width: 100%;
     height: auto;
+  }
+
+  &__image-desktop {
+    display: none;
   }
 
   &__title {
@@ -777,6 +781,31 @@
           border-left: 0px;
         }
       }
+    }
+  }
+
+  .pannels {
+    margin-top: 96px;
+    width: 100%;
+    max-height: 320px;
+    overflow: hidden;
+
+    &__image-mobile {
+      display: none;
+    }
+
+    &__image-desktop {
+      display: block;
+      width: 100%;
+      height: fit-content;
+      object-fit: cover;
+      object-position: center;
+    }
+
+    &__title {
+      padding: 0 120px;
+      font-size: 48px;
+      line-height: 64px;
     }
   }
 }

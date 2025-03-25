@@ -333,9 +333,12 @@
   justify-content: center;
   width: 100%;
 }
-.pannels__image {
+.pannels__image-mobile {
   width: 100%;
   height: auto;
+}
+.pannels__image-desktop {
+  display: none;
 }
 .pannels__title {
   position: absolute;
@@ -656,6 +659,27 @@
   .boards__elements__element:nth-last-child(-n+3) {
     border-top: 3px solid #dedede;
     border-left: 0px;
+  }
+  .pannels {
+    margin-top: 96px;
+    width: 100%;
+    max-height: 320px;
+    overflow: hidden;
+  }
+  .pannels__image-mobile {
+    display: none;
+  }
+  .pannels__image-desktop {
+    display: block;
+    width: 100%;
+    height: fit-content;
+    object-fit: cover;
+    object-position: center;
+  }
+  .pannels__title {
+    padding: 0 120px;
+    font-size: 48px;
+    line-height: 64px;
   }
 }
 @media screen and (min-width: 1440px) {
