@@ -641,7 +641,7 @@
     }
 
     &__container {
-      column-gap: 48px;
+      column-gap: 24px;
       row-gap: 24px;
       flex-direction: row;
       flex-wrap: wrap;
@@ -698,7 +698,7 @@
     }
 
     &__container {
-      gap: 96px;
+      gap: 48px;
       flex-direction: row;
 
       &__divider-out {
@@ -766,11 +766,12 @@
 
       &__element {
         gap: 24px;
-        padding: 40px 35px;
+        padding: 20px 15px;
 
         &__subtitle {
           font-size: 20px;
           line-height: 27px;
+          text-align: center;
         }
 
         &__paragraph {
@@ -887,6 +888,27 @@
             margin-left: 35px;
           }
         }
+      }
+    }
+  }
+
+  .targets {
+    &__container {
+      column-gap: 48px;
+    }
+  }
+
+  .badges {
+    &__container {
+      gap: 96px;
+    }
+  }
+
+  .boards {
+    &__elements {
+      &__element {
+        gap: 24px;
+        padding: 40px 35px;
       }
     }
   }
