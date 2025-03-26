@@ -2,8 +2,6 @@ HTML & CSS Trail
 
 sass --watch styles/styles.scss:styles.css
 
-!Armazenar variáveis de cor
-
 !Armazenar variáveis padrão - espaçamentos, fontes...
 
 !Fazer clean code

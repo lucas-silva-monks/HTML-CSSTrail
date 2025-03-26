@@ -32,13 +32,23 @@
   border: none;
   font-size: 14px;
   line-height: 20px;
+  transition: all 0.3s ease;
 }
 .header__nav__buttons__lorem--common {
   display: none;
 }
+.header__nav__buttons__lorem--common:hover {
+  scale: 1.05;
+  cursor: pointer;
+}
 .header__nav__buttons__lorem--highlighted {
   background-color: #002050;
   padding: 5px 15px 4px;
+}
+.header__nav__buttons__lorem--highlighted:hover {
+  background-color: #003f9e;
+  cursor: pointer;
+  scale: 1.05;
 }
 
 @media screen and (min-width: 768px) {
@@ -129,6 +139,12 @@
   line-height: 28px;
   padding: 12px 32px;
   color: #ffffff;
+  transition: all 0.3s ease;
+}
+.banner__message__button:hover {
+  background-color: #00bbff;
+  cursor: pointer;
+  scale: 1.05;
 }
 .banner__bottom-icons {
   padding-top: 100px;
@@ -420,6 +436,11 @@
   font-size: 12px;
   line-height: 16px;
   padding: 7px 6px;
+  transition: all 0.3s ease;
+}
+.badges__container__element__text__button:hover {
+  cursor: pointer;
+  scale: 1.05;
 }
 .badges__container__element__text__button--hands {
   color: #7fba00;
@@ -741,6 +762,12 @@
   line-height: 28px;
   color: #ffffff;
   font-weight: 400;
+  transition: all 0.3s ease;
+}
+.contact__form__button:hover {
+  background-color: #00bbff;
+  cursor: pointer;
+  scale: 1.05;
 }
 
 @media screen and (min-width: 768px) {

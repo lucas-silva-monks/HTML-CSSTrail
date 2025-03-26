@@ -88,6 +88,13 @@
       line-height: 28px;
       color: var.$primary-neutral-color;
       font-weight: 400;
+      transition: all 0.3s ease;
+
+      &:hover {
+        background-color: var.$button-hover-color;
+        cursor: pointer;
+        scale: 1.05;
+      }
     }
   }
 }

@@ -38,14 +38,27 @@
         border: none;
         font-size: 14px;
         line-height: 20px;
+        transition: all 0.3s ease;
 
         &--common {
           display: none;
+
+          &:hover {
+            // background-color: var.$header-button-hover-color;
+            scale: 1.05;
+            cursor: pointer;
+          }
         }
 
         &--highlighted {
           background-color: var.$header-button-color;
           padding: 5px 15px 4px;
+
+          &:hover {
+            background-color: var.$header-button-hover-color;
+            cursor: pointer;
+            scale: 1.05;
+          }
         }
       }
     }

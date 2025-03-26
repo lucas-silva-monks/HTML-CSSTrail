@@ -48,6 +48,13 @@
       line-height: 28px;
       padding: 12px 32px;
       color: var.$primary-neutral-color;
+      transition: all 0.3s ease;
+
+      &:hover {
+        background-color: var.$button-hover-color;
+        cursor: pointer;
+        scale: 1.05;
+      }
     }
   }
 
