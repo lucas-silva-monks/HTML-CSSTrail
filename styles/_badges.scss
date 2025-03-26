@@ -10,7 +10,7 @@
   gap: 27px;
 
   &__title {
-    font-size: 24px;
+    font: var.$mobile-title;
     font-weight: 400;
     color: var.$heading-color;
   }
@@ -58,8 +58,7 @@
         }
 
         &__description {
-          font-size: 12px;
-          line-height: 18px;
+          font: var.$mobile-inner-description;
           color: var.$secondary-neutral-color;
         }
 
@@ -114,8 +113,7 @@
     gap: 48px;
 
     &__title {
-      font-size: 40px;
-      line-height: 53px;
+      font: var.$desktop-title;
     }
 
     &__container {
@@ -147,8 +145,7 @@
 
           &__description {
             text-align: center;
-            font-size: 16px;
-            line-height: 24px;
+            font: var.$desktop-inner-description;
           }
 
           &__divider-in {

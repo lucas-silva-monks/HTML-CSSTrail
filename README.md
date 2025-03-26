@@ -8,6 +8,4 @@ sass --watch styles/styles.scss:styles.css
 
 Fazer JS
 
-!Arrumar botoes - hover
-
 !desativar submit do forms
