@@ -39,6 +39,7 @@ Antes de começar, certifique-se de ter instalado:
 │── /assets
 │   ├── /icons
 │   ├── /images
+│── /favicons
 │── index.html
 │── /styles
 │   ├── _about.scss
