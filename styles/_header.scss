@@ -44,9 +44,18 @@
           display: none;
 
           &:hover {
-            // background-color: var.$header-button-hover-color;
             scale: 1.05;
             cursor: pointer;
+
+            &::after {
+              content: "";
+              position: absolute;
+              left: 0;
+              bottom: -10px;
+              width: 100%;
+              height: 2px;
+              background-color: var.$primary-neutral-color;
+            }
           }
         }
 
