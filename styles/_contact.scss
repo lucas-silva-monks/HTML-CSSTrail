@@ -5,7 +5,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 0 18px;
   margin-top: 60px;
   gap: 27px;
   width: 100%;
@@ -99,16 +98,9 @@
   }
 }
 
-@media screen and (min-width: 768px) {
-  .contact {
-    padding: 0 60px;
-  }
-}
-
 @media screen and (min-width: 1024px) {
   .contact {
     margin-top: 96px;
-    padding: 0 120px;
     gap: 48px;
 
     &__description {

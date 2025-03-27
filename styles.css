@@ -112,7 +112,6 @@
   display: flex;
   flex-direction: column;
   gap: 28px;
-  padding: 0 18px;
 }
 .banner__message {
   display: flex;
@@ -170,15 +169,7 @@
   height: 39px;
 }
 
-@media screen and (min-width: 768px) {
-  .banner {
-    padding: 0 60px;
-  }
-}
 @media screen and (min-width: 1024px) {
-  .banner {
-    padding: 0 120px;
-  }
   .banner__message {
     align-items: flex-start;
     gap: 96px;
@@ -223,22 +214,15 @@
   gap: 24px;
   color: #737373;
   margin-top: 60px;
-  padding: 0 24px;
 }
 .about__first-p--highlight {
   color: #737373;
   font-weight: 400;
 }
 
-@media screen and (min-width: 768px) {
-  .about {
-    padding: 0 60px;
-  }
-}
 @media screen and (min-width: 1024px) {
   .about {
     margin-top: 96px;
-    padding: 0 120px;
     font: 20px/30px "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     gap: 30px;
   }
@@ -252,7 +236,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 0 18px 54px;
+  padding: 0 0 54px;
   margin-top: 33px;
   gap: 27px;
 }
@@ -318,16 +302,10 @@
   display: none;
 }
 
-@media screen and (min-width: 768px) {
-  .targets {
-    padding: 0 60px;
-  }
-}
 @media screen and (min-width: 1024px) {
   .targets {
     margin-top: 96px;
     gap: 48px;
-    padding: 0 120px;
   }
   .targets__title {
     font: 40px/53px "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -381,7 +359,6 @@
   align-items: center;
   justify-content: center;
   margin-top: 60px;
-  padding: 0 18px;
   gap: 27px;
 }
 .badges__title {
@@ -460,15 +437,9 @@
   height: 3px;
 }
 
-@media screen and (min-width: 768px) {
-  .badges {
-    padding: 0 60px;
-  }
-}
 @media screen and (min-width: 1024px) {
   .badges {
     margin-top: 96px;
-    padding: 0 120px;
     gap: 48px;
   }
   .badges__title {
@@ -527,7 +498,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 0 18px;
   margin-top: 60px;
   gap: 33px;
 }
@@ -569,14 +539,8 @@
   color: #737373;
 }
 
-@media screen and (min-width: 768px) {
-  .boards {
-    padding: 0 60px;
-  }
-}
 @media screen and (min-width: 1024px) {
   .boards {
-    padding: 0 120px;
     margin-top: 96px;
     gap: 48px;
   }
@@ -635,7 +599,6 @@
   font-size: 24px;
   line-height: 36px;
   font-weight: 400;
-  padding: 0 18px;
 }
 
 @media screen and (min-width: 768px) {
@@ -650,7 +613,6 @@
     object-position: center;
   }
   .pannels__title {
-    padding: 0 60px;
     font-size: 36px;
     line-height: 50px;
   }
@@ -672,7 +634,6 @@
     object-position: center;
   }
   .pannels__title {
-    padding: 0 120px;
     font-size: 48px;
     line-height: 64px;
   }
@@ -682,7 +643,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 0 18px;
   margin-top: 60px;
   gap: 27px;
   width: 100%;
@@ -765,15 +725,9 @@
   scale: 1.05;
 }
 
-@media screen and (min-width: 768px) {
-  .contact {
-    padding: 0 60px;
-  }
-}
 @media screen and (min-width: 1024px) {
   .contact {
     margin-top: 96px;
-    padding: 0 120px;
     gap: 48px;
   }
   .contact__description {
@@ -862,6 +816,21 @@
   padding: 0;
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  padding: 0 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 0 60px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .container {
+    padding: 0 120px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

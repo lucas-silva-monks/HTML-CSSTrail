@@ -10,7 +10,6 @@
   gap: 24px;
   color: var.$secondary-neutral-color;
   margin-top: 60px;
-  padding: 0 24px;
 
   &__first-p {
     &--highlight {
@@ -20,16 +19,9 @@
   }
 }
 
-@media screen and (min-width: 768px) {
-  .about {
-    padding: 0 60px;
-  }
-}
-
 @media screen and (min-width: 1024px) {
   .about {
     margin-top: 96px;
-    padding: 0 120px;
     font: var.$desktop-section-paragraph;
     gap: 30px;
 
