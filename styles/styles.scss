@@ -19,6 +19,21 @@
   padding: 0 18px;
 }
 
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  &[active] {
+    display: block;
+    // z-index: 150;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .container {
     padding: 0 60px;

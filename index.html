@@ -63,11 +63,14 @@
           alt="Lorem logo"
           class="header__nav__logo"
         />
-        <div class="header__nav__menu-burger">
+        <button id="menu-open-button" class="header__nav__menu-burger">
           <span class="header__nav__menu-burger__line"></span>
           <span class="header__nav__menu-burger__line"></span>
           <span class="header__nav__menu-burger__line"></span>
-        </div>
+        </button>
+        <button id="menu-close-button" class="header__nav__close-menu">
+          X
+        </button>
         <nav class="header__nav__buttons">
           <button
             class="header__nav__buttons__lorem header__nav__buttons__lorem--common"
@@ -90,6 +93,35 @@
             Lorem Ipsum
           </button>
         </nav>
+        <div id="mobile-menu" class="header__nav__mobile-menu">
+          <img
+            src="./assets/icons/lorem.svg"
+            alt="Lorem logo"
+            class="header__nav__mobile-menu__logo menu-item"
+          />
+          <nav class="header__nav__mobile-menu__buttons">
+            <button
+              class="header__nav__mobile-menu__buttons__lorem header__nav__mobile-menu__buttons__lorem--common menu-item"
+            >
+              Lorem Ipsum
+            </button>
+            <button
+              class="header__nav__mobile-menu__buttons__lorem header__nav__mobile-menu__buttons__lorem--common menu-item"
+            >
+              Lorem Ipsum
+            </button>
+            <button
+              class="header__nav__mobile-menu__buttons__lorem header__nav__mobile-menu__buttons__lorem--common menu-item"
+            >
+              Lorem Ipsum
+            </button>
+            <button
+              class="header__nav__mobile-menu__buttons__lorem header__nav__mobile-menu__buttons__lorem--highlighted menu-item"
+            >
+              Lorem Ipsum
+            </button>
+          </nav>
+        </div>
       </nav>
     </header>
 
@@ -533,5 +565,6 @@
       </div>
       <p class="footer__copyright">© Copyright Ingram Micro Brasil 2018</p>
     </footer>
+    <script src="./scripts/mobile-menu.js"></script>
   </body>
 </html>
