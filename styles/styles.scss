@@ -7,7 +7,7 @@
 @use "pannels";
 @use "contact";
 @use "footer";
-@use "variables";
+@use "variables" as var;
 
 * {
   padding: 0;
@@ -31,6 +31,26 @@
   &[active] {
     display: block;
     // z-index: 150;
+  }
+}
+
+.toast {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  background-color: var.$success;
+  color: var.$primary-neutral-color;
+  padding: 16px 24px;
+  border-radius: 16px;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out, top 0.5s ease;
+  z-index: 300;
+  text-align: center;
+  font-size: 24px;
+
+  &.show {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out, top 0.5s ease;
   }
 }
 

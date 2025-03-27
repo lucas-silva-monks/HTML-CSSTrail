@@ -69,6 +69,14 @@
         &:focus::placeholder {
           color: var.$secondary-neutral-color;
         }
+
+        &[aria-invalid="true"] {
+          border-color: var.$error-color;
+        }
+
+        &[aria-invalid="true"] + .contact__form__field__label {
+          color: var.$error-color;
+        }
       }
 
       &__input:focus + &__label {
