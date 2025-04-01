@@ -39,8 +39,12 @@ Antes de começar, certifique-se de ter instalado:
 │── /assets
 │   ├── /icons
 │   ├── /images
+│
 │── /favicons
-│── index.html
+│── /scripts
+│   ├── form-validations.js
+│   ├── mobile-menu.js
+│
 │── /styles
 │   ├── _about.scss
 │   ├── _badges.scss
@@ -52,9 +56,12 @@ Antes de começar, certifique-se de ter instalado:
 │   ├── _targets.scss
 │   ├── _variables.scss
 │   ├── styles.scss
+│
+│── db.json
+│── index.html
+│── README.md
 │── styles.css (gerado pelo Sass)
 │── styles.css.map (compilador)
-│── README.md
 ```
 
 ## SEO e Boas Práticas
