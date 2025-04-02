@@ -38,7 +38,7 @@
   position: fixed;
   top: 16px;
   right: 16px;
-  background-color: var.$success;
+  background-color: transparent;
   color: var.$primary-neutral-color;
   padding: 16px 24px;
   border-radius: 16px;
@@ -51,6 +51,14 @@
   &.show {
     opacity: 1;
     transition: opacity 0.5s ease-in-out, top 0.5s ease;
+
+    &.success {
+      background-color: var.$success-color;
+    }
+
+    &.error {
+      background-color: var.$error-color;
+    }
   }
 }
 

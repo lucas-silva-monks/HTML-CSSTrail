@@ -931,7 +931,7 @@
   position: fixed;
   top: 16px;
   right: 16px;
-  background-color: #2dd912;
+  background-color: transparent;
   color: #ffffff;
   padding: 16px 24px;
   border-radius: 16px;
@@ -944,6 +944,12 @@
 .toast.show {
   opacity: 1;
   transition: opacity 0.5s ease-in-out, top 0.5s ease;
+}
+.toast.show.success {
+  background-color: #2dd912;
+}
+.toast.show.error {
+  background-color: red;
 }
 
 @media screen and (min-width: 768px) {
